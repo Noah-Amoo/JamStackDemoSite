@@ -9,12 +9,14 @@ body {
     font-family: Fira Code, sans-serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    width: 100%; /* Make header and footer full width */
+    width: 100%;
+    /* Make header and footer full width */
 }
 
 main {
@@ -28,9 +30,12 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
-    width: 120px; /* Fixed width for the button */
-    margin: 0 auto; /* Center the button horizontally */
-    display: block; /* Ensure the button takes up full width of container */
+    width: 120px;
+    /* Fixed width for the button */
+    margin: 0 auto;
+    /* Center the button horizontally */
+    display: block;
+    /* Ensure the button takes up full width of container */
     font-family: Fira Code, sans-serif;
     font-weight: bold;
 }

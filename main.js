@@ -17,7 +17,9 @@ function renderData(data) {
         dataItem.classList.add('data-item');
         dataItem.innerHTML = `
         <h2>${item.title}</h2>
-        <p>${item.content}</p>`;
+        <p>${item.content}</p>
+        <div #image><img src=${item.imageUrl} alt="iamge" /></div>
+        `;
         dataContainer.appendChild(dataItem);
     })
 }
